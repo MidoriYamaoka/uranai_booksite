@@ -1,0 +1,259 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	margin:0;
+	padding:0;
+	color:snow;
+	font-family: /*"Sawarabi Mincho",*/ 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','游明朝体+36ポかな','YuMincho +36p Kana','ヒラギノ明朝 ProN','Hiragino Mincho ProN',cursive;
+	text-align: center;
+}
+div.page_container{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: antiquewhite;
+	overflow: auto;
+}
+.page_container[data-page-num="1"], footer{
+	background: linear-gradient(111.59038976833176deg, rgba(73, 242, 183,0.3) 22.830366243513712%,rgba(73, 241, 182,0.3) 22.830366243513712%,rgba(237, 182, 0,0.3) 91.57689144736841%),url("/images/3577411_l.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.page_container[data-page-num="2"], .page_container[data-page-num="4"], .page_container[data-page-num="6"]{
+	background:linear-gradient(121.89087699328525deg, rgba(36, 209, 62,0.7) 43.24008886998568%,rgba(36, 208, 62,0.7) 43.24008886998568%,rgba(82, 172, 76,0.7) 89.11562915062382%,rgba(85, 171, 77,0.7) 91.47723965795129%);
+	}
+.page_container[data-page-num="3"]{
+	background:linear-gradient(111.59038976833176deg, rgba(73, 242, 183,0.3) 22.830366243513712%,rgba(73, 241, 182,0.3) 22.830366243513712%,rgba(237, 182, 0,0.3) 91.57689144736841%),url("/images/remote.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.page_container[data-page-num="5"]{
+	background:linear-gradient(107.9639860593145deg, rgba(104, 166, 153,0.3) 14.305353465257879%,rgba(104, 166, 153,0.3) 18.740661096436245%,rgba(168, 147, 39,0.3) 78.81891900967048%), url("/images/schedule.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+/**/
+.logo_img{
+	position: absolute;
+	width: 15vw;
+	height: 15vw;
+	top: 5vh;
+	left:	3vw;
+	border: 1px black solid;
+}
+.tobook{
+	position: relative;
+	width: 19vw;
+    height: 7vw;
+    top: 76vh;
+    left: 68vw;
+    color: #2eb5c7;
+    font-size: 1.8rem;
+    background: rgba(255, 236, 179, 0.82);
+    line-height: 5.8rem;
+    box-shadow: -4px -2px 15px 9px #d0d17b inset, -4px -2px 35px 5px #55ab4d;
+    border-radius: 19px;
+    border: 2px outset #8d8929;
+}
+#tobook2{
+	left:50vw;
+}
+.logo_container{
+	display: flex;
+	flex-direction: column;
+}
+.big_contents_container{
+	position: absolute;
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	top: 33vh;
+	/*border: 1px black solid;*/
+}
+
+.contents_container2-1{
+	position: relative;
+	display: inline-block;
+    height: 27vh;
+    width: 15vw;
+	/*border: 1px black solid;*/
+	margin-left: 4vw;
+}
+#img_2-0{
+	position: absolute;
+	width: 17vh;
+	height: 17vh;
+	top: 3vh;
+	left: 7vw;
+	transform: scaleX(-1);
+	background:url("/images/phone.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*border: 1px black solid;*/
+	}
+#img_2-1{
+	position: absolute;
+	width: 17vh;
+	height: 17vh;
+	top: 10vh;
+	left: 0vw;
+	background:url("/images/phone.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*border: 1px black solid;*/
+	}
+.contents_container2-2{
+	position: relative;
+	display: inline-block;
+	top: 35vh;
+    height: 13vh;
+    width: 15vw;
+	/*border: 1px black solid;*/
+}
+
+#img_2-2{
+	position: absolute;
+	width: 27vh;
+    height: 27vh;
+    left: 1vw;
+	background:url("/images/meet.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*border: 1px black solid;*/
+	}
+#img_2-3{
+	position: absolute;
+	width: 27vh;
+    height: 27vh;
+    left: 1vw;
+	background:url("/images/carender.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*border: 1px black solid;*/
+	}
+.big_img_container3, .big_img_container4{
+	position: absolute;
+	top: 52vh;
+    left: 12vw;
+    height: 33vh;
+    width: 56vw;
+	/*border: 1px black solid;*/
+}
+.big_text_container3{
+	position: absolute;
+    width: 56vw;
+    height: 26vh;
+    top: 24vh;
+    left: 18vw;
+    text-align: initial;
+    /*border: 1px black solid;*/
+}
+.big_text_container5{
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+}
+.img_container3{
+	display:inline-block;
+    height: 25vh;
+    width: 13vw;
+	/*border: 1px black solid;*/
+	padding-left:1vw;
+}
+#img3_1,#img3_3{
+	background:url("/images/laptop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img3_2{
+	background:url("/images/spark.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contents_container3{
+	position:	absolute;
+	top: 12vh;
+	left: 52vw;
+	height: 63vh;
+	width: 37vw;
+	border: 1px black solid;
+}
+#img4_1{
+	filter: blur(3px);
+	border-radius:19px;
+	background-image:linear-gradient(107.9639860593145deg, rgba(125, 186, 174,0.3) 14.305353465257879%,rgba(125, 186, 174,0.3) 15.514982819215614%,rgba(189, 164, 38,0.3) 78.81891900967048%), url("/images/3415532_s.jpg");/*画像差し替えしたい*/
+}
+.contents_container6{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	/*border: 1px black solid;*/
+}
+
+/*フォント設定*/
+h3{
+	margin: 0;
+    padding: 0;
+    height: 9vh;
+	font-size: 3rem;
+	text-align: center;
+}
+h4{
+	position: absolute;
+    font-size: 2rem;
+    top: -14vh;
+}
+p{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+#main_title1{
+	position: absolute;
+	top: 29vh;
+    left: 19vw;
+    height: 9vh;
+    width: 50vw;
+	/*border: 1px black solid;*/
+}
+#main_title2, #main_title3, #main_title4, #main_title5, #main_title6{
+	position: relative;
+    top: 7vh;
+    left: 13vw;
+}
+#text1{
+	position: absolute;
+    top: 39vh;
+    left: 32vw;
+    height: 10vh;
+    width: 56vw;
+    text-align: initial;
+    line-height: 2.2rem;
+    background: linear-gradient(107.9639860593145deg, rgba(104, 166, 153,0.3) 14.305353465257879%,rgba(104, 166, 153,0.3) 18.740661096436245%,rgba(168, 147, 39,0.3) 78.81891900967048%);
+    border-radius: 19px;
+}
+form{
+	position: relative;
+    top: 23vh;
+	height: 40vh;
+	/*border: 1px black solid;*/
+}
+footer{
+	position: absolute;
+	width: 100%;
+	/*border: 1px black solid;*/
+	bottom:0;
+}
+.footer_logo{
+	position: absolute;
+	height: 20vh;
+	width: 20vh;
+	border: 1px black solid;
+}
+.text_footer_1{
+	display: inline-block;
+	padding-left: 6vw;
+}
